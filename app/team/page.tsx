@@ -153,7 +153,7 @@ export default function TeamPage() {
             Meet the <span className="neon-text">Team</span>
           </h1>
           <p className="font-body text-silver max-w-xl mx-auto">
-            The dedicated team behind Karachi's premier student-led finance competition.
+            The dedicated team behind Karachi&apos;s premier student-led finance competition.
           </p>
         </div>
       </section>

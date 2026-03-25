@@ -15,7 +15,6 @@ interface TeamMember {
   isED?: boolean
 }
 
-// ── Core Leadership ───────────────────────────────────────────────────────────
 const LEADERSHIP: TeamMember[] = [
   { name: 'Isra Ghous', role: 'President', initials: 'IG' },
   { name: 'Abdul Qadir', role: 'Vice President', initials: 'AQ' },
@@ -26,7 +25,6 @@ const LEADERSHIP: TeamMember[] = [
   { name: 'Aizah Rasheed', role: 'Assistant to the President', initials: 'AR' },
 ]
 
-// ── Executive Body by Department ──────────────────────────────────────────────
 interface Department {
   name: string
   tag: string
@@ -156,13 +154,12 @@ export default function TeamPage() {
             Meet the <span className="neon-text">Team</span>
           </h1>
           <p className="font-body text-silver max-w-xl mx-auto">
-            The dedicated team behind Karachi&apos;s premier student-led finance competition.
+            {"The dedicated team behind Karachi's premier student-led finance competition."}
           </p>
         </div>
       </section>
 
       <div className="max-w-5xl mx-auto px-4 pb-24 space-y-24 relative z-10">
-        {/* Core Leadership */}
         <div>
           <div className="mb-10 text-center sm:text-left">
             <p className="font-mono text-neon text-xs tracking-[0.4em] uppercase mb-2">Management</p>
@@ -173,7 +170,6 @@ export default function TeamPage() {
           </div>
         </div>
 
-        {/* Departments */}
         <div>
           <div className="mb-10 text-center sm:text-left">
             <p className="font-mono text-neon text-xs tracking-[0.4em] uppercase mb-2">Executive Body</p>
@@ -194,7 +190,6 @@ export default function TeamPage() {
           </div>
         </div>
 
-        {/* Contact CTA */}
         <div className="glass border border-white/5 p-12 text-center">
           <h2 className="font-display font-black text-3xl uppercase text-white mb-4">Join the legacy</h2>
           <p className="font-body text-silver text-sm mb-8 max-w-md mx-auto">Interested in volunteering or collaborating? Reach out to our HR department.</p>

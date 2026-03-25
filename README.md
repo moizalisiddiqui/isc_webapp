@@ -115,7 +115,3 @@ npx vercel
 Set **Framework**: Next.js — everything else is auto-detected.
 
 ---
-
-## 📞 Contact
-**isc@iobm.edu.pk**  
-Institute of Business Management, Karachi

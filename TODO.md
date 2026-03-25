@@ -1,0 +1,1 @@
+# TODO: Fix npm warnings and Vercel deploy issues\n\n- [x] Step 1: Update package.json versions, remove eslint.\n- [x] Step 2: Update tailwind.config.ts content paths.\n- [x] Step 3: Clean install - `npm install` running/success.\n- [ ] Step 4: `npm run lint && npm run build` verify.\n- [ ] Step 5: Deploy Vercel, complete.

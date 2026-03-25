@@ -1,8 +1,11 @@
-'use client'
-
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import StarfieldBackground from '@/components/StarfieldBackground'
+
+export const metadata: Metadata = {
+  title: 'Team – IOBM Stock Challenge 2026',
+  description: 'Meet the organizing team behind IOBM Stock Challenge 2026.',
+}
 
 interface TeamMember {
   name: string

@@ -64,7 +64,7 @@ export default function Hero() {
           {[{v:'50K+ PKR',l:'Prize Pool'},{v:'500+',l:'Participants'},{v:'6 Days',l:'Simulation'}].map(({v,l}) => (
             <div key={l} className="flex items-center gap-2">
               <span className="font-display font-bold text-neon">{v}</span>
-              <span className="text-silver/50 font-mono text-xs tracking-wide">{l}</span>
+              <span className="text-silver/100 font-mono text-xs tracking-wide">{l}</span>
             </div>
           ))}
         </div>

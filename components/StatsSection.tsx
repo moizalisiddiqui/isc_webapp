@@ -38,7 +38,7 @@ const StatCard = ({ stat, active }: { stat: typeof STATS[0]; active: boolean }) 
       </div>
       <div className="stat-number text-4xl sm:text-5xl lg:text-6xl mb-2">{n}{stat.suffix}</div>
       <div className="font-display font-bold text-white text-lg tracking-widest uppercase mb-1">{stat.label}</div>
-      <div className="font-mono text-xs text-silver/55 tracking-wider">{stat.sub}</div>
+      <div className="font-mono text-xs text-silver/100 tracking-wider">{stat.sub}</div>
     </div>
   )
 }

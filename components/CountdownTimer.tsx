@@ -24,7 +24,7 @@ const TimeUnit = ({ value, label }: { value: number; label: string }) => (
         {String(value).padStart(2, '0')}
       </span>
     </div>
-    <span className="font-mono text-[10px] text-silver/50 tracking-widest uppercase">{label}</span>
+    <span className="font-mono text-[10px] text-silver/100 tracking-widest uppercase">{label}</span>
   </div>
 )
 
@@ -42,7 +42,7 @@ export default function CountdownTimer() {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <p className="font-mono text-[10px] text-silver/40 tracking-[0.35em] uppercase">
+      <p className="font-mono text-[10px] text-silver/100 tracking-[0.35em] uppercase">
         Registration Closes In
       </p>
       <div className="flex items-center gap-2 sm:gap-3">

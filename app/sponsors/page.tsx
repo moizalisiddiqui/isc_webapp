@@ -154,7 +154,7 @@ function BenefitRow({ label, value }: { label: string; value: string }) {
   const isNo = value === 'NO'
   return (
     <li className="flex items-center justify-between gap-3 py-1.5 border-b border-white/[0.04] last:border-0">
-      <span className="font-body text-sm text-silver/70">{label}</span>
+      <span className="font-body text-sm text-silver/100">{label}</span>
       <span className={`font-mono text-xs font-bold tracking-wide flex-shrink-0 ${isNo ? 'text-white/20' : 'text-neon'}`}>
         {value}
       </span>
@@ -187,7 +187,7 @@ export default function SponsorsPage() {
           {REACH.map(({ value, label }) => (
             <div key={label} className="glass-neon p-6 text-center">
               <div className="font-display font-black text-3xl text-neon mb-1">{value}</div>
-              <div className="font-mono text-[10px] text-silver/50 tracking-widest uppercase">{label}</div>
+              <div className="font-mono text-[10px] text-silver/100 tracking-widest uppercase">{label}</div>
             </div>
           ))}
         </div>

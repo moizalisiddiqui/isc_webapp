@@ -7,7 +7,7 @@ const FAQS = [
   { q: 'Do I need prior stock market experience?', a: 'No. Day 1 includes intensive mentorship and industry learning sessions designed to prepare all participants. Basic financial literacy is helpful but not required.' },
   { q: 'How does the trading simulation work?', a: 'Participants receive demo trading accounts loaded with virtual capital. Over the 6-day event you execute strategies, manage portfolios, and present your investment reasoning to industry judges.' },
   { q: 'What is the team size requirement?', a: 'Teams consist of exactly 3 members (1 team leader + 2 members). Individual entries are also accepted.' },
-  { q: 'How is the prize pool distributed?', a: '1st Place: 50% · 2nd Place: 30% · 3rd Place: 20%. Total prize pool exceeds 200,000 PKR.' },
+  { q: 'How is the prize pool distributed?', a: '1st Place: 50% · 2nd Place: 30% · 3rd Place: 20%. Total prize pool exceeds 50,000 PKR.' },
   { q: 'When is the registration deadline?', a: 'Registration closes on April 9, 2026. Spots are limited — register early to secure your place.' },
   { q: 'Can I sponsor ISC 2026?', a: 'Yes! Multiple sponsorship tiers are available. Visit the Sponsors page or email us directly for the full proposal.' },
 ]

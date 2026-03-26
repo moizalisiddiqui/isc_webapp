@@ -61,7 +61,7 @@ export default function Hero() {
 
         {/* Quick stats */}
         <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm">
-          {[{v:'200K+ PKR',l:'Prize Pool'},{v:'500+',l:'Participants'},{v:'6 Days',l:'Simulation'}].map(({v,l}) => (
+          {[{v:'50K+ PKR',l:'Prize Pool'},{v:'500+',l:'Participants'},{v:'6 Days',l:'Simulation'}].map(({v,l}) => (
             <div key={l} className="flex items-center gap-2">
               <span className="font-display font-bold text-neon">{v}</span>
               <span className="text-silver/50 font-mono text-xs tracking-wide">{l}</span>

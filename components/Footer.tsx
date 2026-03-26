@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <p className="font-mono text-xs text-neon tracking-[0.3em] uppercase mb-4">Contact</p>
             <a href="mailto:isc@iobm.edu.pk" className="block font-mono text-sm text-silver/55 hover:text-neon transition-colors duration-300 mb-2">
-              isc@iobm.edu.pk
+              std_32071@iobm.edu.pk
             </a>
             <p className="font-body text-xs text-silver/35">Institute of Business Management<br />Karachi, Pakistan</p>
             <div className="flex gap-3 mt-5">

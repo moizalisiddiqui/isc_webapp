@@ -15,7 +15,7 @@ const PLANS = [
       'Mentorship session (Day 1)',
       'Certificate of participation',
       'Eligible for all prize pools',
-      'Networking dinner access',
+      'Networking lunch access',
 
     ],
     // cta: 'Register Solo',
@@ -33,7 +33,7 @@ const PLANS = [
       'Priority mentorship session',
       'Team certificate + awards',
       'Eligible for all prize pools',
-      'Networking dinner access',
+      'Networking lunch access',
     ],
     // cta: 'Register Team',
     recommended: true,

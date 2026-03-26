@@ -16,13 +16,13 @@ interface TeamMember {
 }
 
 const LEADERSHIP: TeamMember[] = [
-  { name: 'Isra Ghous', role: 'President', initials: 'IG' },
-  { name: 'Abdul Qadir', role: 'Vice President', initials: 'AQ' },
-  { name: 'Sameen Syed', role: 'Head of Brand & Marketing', initials: 'SS' },
-  { name: 'Amna Ayub', role: 'General Secretary', initials: 'AA' },
-  { name: 'Moiz Ali Siddiqui', role: 'Webmaster', initials: 'MA' },
-  { name: 'Aashir Ali', role: 'Treasury', initials: 'AL' },
-  { name: 'Aizah Rasheed', role: 'Assistant to the President', initials: 'AR' },
+  { name: 'Isra Ghous', role: 'President', initials: 'IG', image: '/team/Isra Ghous.JPG' },
+  { name: 'Abdul Qadir', role: 'Vice President', initials: 'AQ', image: '/team/Abdul Qadir.JPG' },
+  { name: 'Amna Ayub', role: 'General Secretary', initials: 'AA', image: '/team/Amna Ayub.JPG' },
+  { name: 'Moiz Ali Siddiqui', role: 'Webmaster', initials: 'MA', image: '/team/Moiz Ali Siddiqui.JPG' },
+  { name: 'Aashir Ali', role: 'Treasury', initials: 'AL', image: '/team/Aashir Ali.JPG' },
+  { name: 'Sameen Syed', role: 'Head of Brand & Marketing', initials: 'SS', image: '/team/Sameen.JPG' },
+  { name: 'Aizah Rasheed', role: 'Assistant to the President', initials: 'AR', image: '/team/Aizah.JPG' },
 ]
 
 interface Department {

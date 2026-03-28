@@ -191,7 +191,7 @@ function RegisterForm() {
         teamLeader: form.leader,
         ...(isIndividual ? {} : { member1: form.member1, member2: form.member2 }),
       }
-      const res = await fetch('https://formspree.io/f/xbdprega', {
+      const res = await fetch('https://formspree.io/f/xaqlqbdk', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body:    JSON.stringify(payload),

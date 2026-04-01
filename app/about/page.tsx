@@ -176,7 +176,7 @@ export default function AboutPage() {
             {[
               { icon: '⚡', label: 'Real Market Data',      desc: 'Live PSX data feeds throughout the simulation' },
               { icon: '🎯', label: 'Performance + Reasoning', desc: 'Winners judged on returns AND investment rationale' },
-              { icon: '🏆', label: '200,000+ PKR',           desc: 'Total prize pool distributed to top 3 teams' },
+              { icon: '🏆', label: '50,000+ PKR',           desc: 'Total prize pool distributed to top 3 teams' },
               { icon: '🤝', label: 'Industry Mentors',       desc: 'Learn from working finance professionals on Day 1 & 2' },
             ].map(({ icon, label, desc }) => (
               <div key={label} className="glass border border-white/5 hover:border-neon/18 transition-all duration-300 p-4 flex gap-4">

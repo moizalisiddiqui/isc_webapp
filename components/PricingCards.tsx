@@ -7,7 +7,7 @@ const PLANS = [
   {
     id: 'individual' as const,
     label: 'Individual',
-    price: '2,500',
+    price: '1,500',
     currency: 'PKR',
     features: [
       'Single participant entry',
@@ -24,7 +24,7 @@ const PLANS = [
   {
     id: 'team' as const,
     label: 'Team',
-    price: '5,000',
+    price: '3,000',
     currency: 'PKR',
     badge: 'RECOMMENDED',
     features: [

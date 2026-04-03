@@ -238,8 +238,8 @@ function RegisterForm() {
         <p className="font-mono text-xs text-silver/40 tracking-widest uppercase mb-3">Select Entry Type</p>
         <div className="grid grid-cols-2 gap-3">
           {([
-            { id: 'individual', label: 'Individual', price: '2,500 PKR' },
-            { id: 'team',       label: 'Team (3)',   price: '5,000 PKR', badge: 'RECOMMENDED' },
+            { id: 'individual', label: 'Individual', price: '1,500 PKR' },
+            { id: 'team',       label: 'Team (3)',   price: '3,000 PKR', badge: 'RECOMMENDED' },
           ] as { id: EntryType; label: string; price: string; badge?: string }[]).map(opt => {
             const active = form.entryType === opt.id
             return (
@@ -336,7 +336,7 @@ function RegisterForm() {
               ['Account Name', 'Abdul Qadir'],
               ['Bank',         'Habib Bank Limited (HBL)'],
               ['IBAN',         'PK53HABB0054497000069199'],
-              ['Amount',      isIndividual ? 'PKR 2,500' : 'PKR 5,000'],
+              ['Amount',      isIndividual ? 'PKR 1,500' : 'PKR 3,000'],
             ].map(([k, v]) => (
               <div key={k} className="flex gap-3">
                 <span className="font-mono text-xs text-silver/40 w-28 flex-shrink-0">{k}</span>

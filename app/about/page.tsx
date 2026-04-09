@@ -44,7 +44,7 @@ const SCHEDULE = [
     day: '03',
     dayLabel: 'Day 3',
     date: 'Wednesday',
-    title: 'Online Session',
+    title: 'Online Independent Trading',
     desc:
       'A structured online session where participants receive additional guidance, review their portfolio performance, and refine their strategy with virtual instructor support.',
     items: [
@@ -59,7 +59,7 @@ const SCHEDULE = [
     day: '04',
     dayLabel: 'Day 4',
     date: 'Thursday',
-    title: 'Independent Work / Practice',
+    title: 'Online Independent Trading',
     desc:
       'Participants independently execute trades, conduct research, and stress-test their portfolio thesis. No scheduled sessions — this is pure competitive trading under live conditions.',
     items: [
@@ -74,7 +74,7 @@ const SCHEDULE = [
     day: '05',
     dayLabel: 'Day 5',
     date: 'Friday',
-    title: 'Preparation & Rehearsals',
+    title: 'Online Independent Trading',
     desc:
       'Final trading day. Participants lock in their portfolios and begin preparing their investment thesis presentation for the judges. Rehearsal sessions and coaching are provided.',
     items: [

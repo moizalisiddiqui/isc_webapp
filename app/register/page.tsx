@@ -429,7 +429,7 @@ export default function RegisterPage() {
           <div className="flex items-center gap-3 glass-neon p-3 mb-8 justify-center">
             <span className="w-1.5 h-1.5 rounded-full bg-neon animate-pulse flex-shrink-0" />
             <span className="font-mono text-[10px] text-neon tracking-widest uppercase">
-              Registration Deadline: April 9, 2026
+              Registration Deadline: April 12, 2026
             </span>
           </div>
 

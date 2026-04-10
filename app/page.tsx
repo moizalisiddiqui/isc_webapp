@@ -120,6 +120,28 @@ export default function Home() {
       {/* ── Pricing ─────────────────────────────────────────────────────── */}
       <PricingCards />
 
+      {/* ── Trading Partner ─────────────────────────────────────────────── */}
+      <section className="py-20 px-4 relative z-10">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <p className="font-mono text-neon text-xs tracking-[0.4em] uppercase mb-4">Backed By The Best</p>
+            <h2 className="font-display font-black text-3xl sm:text-4xl uppercase tracking-tight text-white">
+              Our <span className="neon-text">Trading Partner</span>
+            </h2>
+          </div>
+
+          <div className="flex justify-center">
+            <div className="max-w-xl w-full">
+              <img
+                src="/images/AKD.jpeg"
+                alt="AKD Securities - Trading Partner"
+                className="w-52 h-auto rounded-2xl object-cover border border-white/10 shadow-[0_0_40px_rgba(57,255,20,0.08)] mx-auto block"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Gallery ────────────────────────────────────────────────────── */}
       <GalleryGrid />
 

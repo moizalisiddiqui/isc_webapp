@@ -336,7 +336,7 @@ function RegisterForm() {
               ['Account Name', 'Abdul Qadir'],
               ['Bank',         'Habib Bank Limited (HBL)'],
               ['IBAN',         'PK53HABB0054497000069199'],
-              ['Amount',      isIndividual ? 'PKR 1,500' : 'PKR 3,000'],
+              ['Amount',      isIndividual ? 'PKR 1,500' : 'PKR 2,500'],
             ].map(([k, v]) => (
               <div key={k} className="flex gap-3">
                 <span className="font-mono text-xs text-silver/40 w-28 flex-shrink-0">{k}</span>

@@ -239,7 +239,7 @@ function RegisterForm() {
         <div className="grid grid-cols-2 gap-3">
           {([
             { id: 'individual', label: 'Individual', price: '1,500 PKR' },
-            { id: 'team',       label: 'Team (3)',   price: '3,000 PKR', badge: 'RECOMMENDED' },
+            { id: 'team',       label: 'Team (3)',   price: '2,500 PKR', badge: 'RECOMMENDED' },
           ] as { id: EntryType; label: string; price: string; badge?: string }[]).map(opt => {
             const active = form.entryType === opt.id
             return (

@@ -24,7 +24,7 @@ const PLANS = [
   {
     id: 'team' as const,
     label: 'Team',
-    price: '3,000',
+    price: '2,500',
     currency: 'PKR',
     badge: 'RECOMMENDED',
     features: [
